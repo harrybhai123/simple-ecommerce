@@ -1,0 +1,4 @@
+.FlexCard{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,41 @@
+.Card{
+    margin-top: 2em;
+    max-width: 200px;
+    margin: 1em;
+    position: relative;
+}
+.card-img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.ratingCountry{
+    display: flex;
+    align-items: center;
+}
+.ratingCountry p{
+    margin: .3em .2em;
+}
+
+.img-area{
+    position: relative;
+}
+
+.brand{
+    text-transform: uppercase;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    color: #000;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
